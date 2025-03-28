@@ -37,7 +37,7 @@ section#login{
 section> div#imagem{
     display: block;
     background: black url(../imagens/login-img.jpeg) no-repeat;
-    height: 150px;
+    height: 200px;
     background-size: cover;
     
 }
@@ -47,3 +47,22 @@ section > div#formulario{
     padding: 12px;
     
 }
+
+#formulario h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario p {
+    font-size: .8em;
+    text-align: justify;
+}
+
+div#usuario{
+    padding: 5px;
+}
+
+div#senha{
+    padding: 5px;
+}
+
