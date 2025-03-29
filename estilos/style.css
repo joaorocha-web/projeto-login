@@ -42,6 +42,16 @@ section> div#imagem{
     
 }
 
+div.campo{
+    
+    margin: 5px 0px;
+    border-radius: 8px;
+}
+
+div.campo >label{
+    display: none;
+}
+
 section > div#formulario{
     display: block;
     padding: 12px;
@@ -66,3 +76,31 @@ div#senha{
     padding: 5px;
 }
 
+input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px 10px 0px;
+    background-color: rgb(206, 0, 242);
+    border: none;
+    border-radius: 8px;
+}
+
+input[type=submit]:hover {
+    transition-duration: .5s;
+    background-color: rgb(37, 207, 254);
+}
+
+a.botao{
+    color: black;
+    display: block;
+    width: 100%;
+    text-align: center;
+    height:30px ;
+    border-radius: 8px;
+}
+
+a.botao:hover{
+    background-color:rgba(128, 128, 128, 0.153) ;
+}
