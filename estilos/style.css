@@ -14,16 +14,20 @@ body{
 }
 
 main{
-    position: relative;
-    height: 100vh;
+    /*position: relative;*/
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     width: 100vw;
 }
 
 section#login{
-    position: absolute;
+   /*position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
     background-color: white;
     width: 300px;
     min-height: 500px;
